@@ -17,11 +17,11 @@ public class Lotto {
 	public void doLotto() {
 		
 		LottoEquip equip = new LottoEquip();
-		YelloBall yello = new YelloBall();
-		BlueBall blue = new BlueBall();
-		RedBall red = new RedBall();
-		GreyBall grey = new GreyBall();
-		GreenBall green = new GreenBall();
+		YelloBall yello = new YelloBall(); //노란색 공 
+		BlueBall blue = new BlueBall(); //파란색 공
+		RedBall red = new RedBall(); //빨간색 공
+		GreyBall grey = new GreyBall(); //회색 공
+		GreenBall green = new GreenBall(); //초록색 공
 		
 		Random random = new Random();
 		
